@@ -1,4 +1,4 @@
-/*** 
+/**
 
 BMI Calculator and Health Category
 
@@ -11,3 +11,9 @@ Create a JavaScript program that calculates the Body Mass Index (BMI) and assign
     - Otherwise, you are obese.
 
 */
+
+let weight = 60;
+let height = 1.65;
+let bmi = weight / Math.pow(height,2);
+console.log("Your BMI is: ", bmi);
+
